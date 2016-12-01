@@ -33,7 +33,7 @@ function handleText(textNode)
 {
 	var v = textNode.nodeValue;
 
-	v = v.replace(/\bpasta\b/g, "caaaaarbs");
+	v = v.replace(/\bnancy\b/g, "taylor");
 	v = v.replace(/\bbread\b/g, "caaaaarbs");
 	v = v.replace(/\bBread\b/g, "Caaaaarbs");
 	v = v.replace(/\bScones\b/g, "Caaaaarbs");
