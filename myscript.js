@@ -1,4 +1,4 @@
-//credit goes to Steven Frank of Cloud to Butt (https://github.com/panicsteve/cloud-to-butt/)
+//credit goes to Steven Frank of Butt to Butt (https://github.com/panicsteve/butt-to-butt/)
 
 walk(document.body);
 
@@ -33,9 +33,9 @@ function handleText(textNode)
 {
 	var v = textNode.nodeValue;
 
-	v = v.replace(/\bpasta\b/g, "caaaaarbs");
-	v = v.replace(/\bbread\b/g, "caaaaarbs");
-	v = v.replace(/\bBread\b/g, "Caaaaarbs");
+	v = v.replace(/\bnancy\b/g, "taylor");
+	v = v.replace(/\bnancy's\b/g, "taylor's");
+	v = v.replace(/\bNancy\b/g, "Taylor");
 	v = v.replace(/\bScones\b/g, "Caaaaarbs");
 	v = v.replace(/\bBuns\b/g, "Caaaaarbs");
 	v = v.replace(/\bspaghetti\b/g, "caaaaarbs");
